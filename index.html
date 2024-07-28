@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <title>Frontend Mentor | Results summary component</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <script src="./script.js" defer></script>
+  <body class="h-screen w-screen flex justify-center items-center bg-[#ebf1ff]">
+    <div
+      class="w-[500px] rounded-2xl bg-[#ffffff] overflow-hidden flex max-[600px]:flex-col max-[600px]:scale-90"
+    >
+      <div
+        class="bg-gradient-to-b from-[#7857ff] to-[#2e2be9] p-6 flex-1 rounded-2xl"
+      >
+        <p class="text-[#ebf1ff] text-center mb-4">Your Result</p>
+        <div
+          class="h-32 w-32 rounded-full bg-gradient-to-b from-[#4e21ca] to-[#2421ca00] m-auto grid place-content-center"
+        >
+          <p class="text-4xl font-bold text-[#ffffff]">76</p>
+          <p class="mt-05 text-xs text-[#c8c7ff] text-center">of 100</p>
+        </div>
+        <p class="mt-6 text-[#ffffff] text-center font-semibold text-xl">
+          Great
+        </p>
+        <blockquote
+          class="text-center text-xs text-[#c8c7ff] px-4 leading-normal mt-2"
+        >
+          You scored higher than 65% of the people who have taken these tests.
+        </blockquote>
+      </div>
+      <div class="p-6 flex-1">
+        <p class="text-[#303b5a] font-semibold text-base">Summary</p>
+        <div class="list-container mt-6">
+          <!-- data -->
+        </div>
+        <button
+          class="px-2 py-2 mt-8 mb-4 rounded-3xl text-[#ebf1ff] text-base bg-[#303b5a] w-full transition hover:scale-95 hover:bg-[#2e2be9]"
+        >
+          Continue
+        </button>
+      </div>
+    </div>
+  </body>
+</html>
